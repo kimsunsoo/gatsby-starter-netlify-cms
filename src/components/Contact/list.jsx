@@ -53,7 +53,7 @@ const timelineData = [
 			}
 	},
 	{
-			text: '블록체인 마스터 과정 (한국 표준협회, 한국블록체인연구교육원)',
+			text: '블록체인 (한국 표준협회, 한국블록체인연구교육원)',
 			text2:"Hyperleger-fabric, Ethereum 개발",
 			date: '2019.05 ~ 2019.11 블록체인 마스터 과정',
 			category: {
@@ -68,7 +68,7 @@ const timelineData = [
 	{
 			text: 'express서버 개발, 데이터(Mysql, mongodb)와',
 			text2:" react 라이브러리를 이용 개발 ",
-			date: '2019.04 Node.js & Database & React',
+			date: '2019.04 Database & React',
 			category: {
 		tag: '',
 		color: '#018f69'
