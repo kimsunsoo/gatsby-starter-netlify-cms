@@ -66,6 +66,19 @@ const timelineData = [
 			}
 	},
 	{
+			text: 'express서버 개발, 데이터(Mysql, mongodb)와',
+			text2:" react 라이브러리를 이용 개발 ",
+			date: '2019.04 Node.js & Database & React',
+			category: {
+		tag: '',
+		color: '#018f69'
+	},
+			link: {
+					url: '',
+					text: ''
+			}
+	},
+	{
 			text: '프레임 워크, 라이브러리를 사용하지 않고',
 			text2:"순수 javascript 개발",
 			date: '2019.02 Vanila.js ',
