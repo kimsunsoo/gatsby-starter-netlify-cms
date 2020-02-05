@@ -10,7 +10,7 @@
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 10%;
+  padding-bottom: 15%;
 
   @include respond(tab-land) {
     height: 100%;
@@ -39,7 +39,7 @@
 
     &__info {
       display: flex;
-      height: 100%;
+			height: 100%;
       justify-content: center;
       flex-direction: column;
 
@@ -48,14 +48,15 @@
       }
 
       &-text {
-        text-align: left;
+				text-align: left;
+				font-size: 2rem;
 
         @include respond(tab-port) {
-          font-size: 1.5rem;
+          font-size: 2.5rem;
           text-align: center;
         }
         @include respond(phone) {
-          font-size: 1.6rem;
+          font-size: 2.6rem;
           text-align: center;
         }
 

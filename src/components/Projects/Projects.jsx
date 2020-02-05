@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map(project => {
-            const { id, title, info, info2, url, repo, img } = project;
+            const { id, title, info, info2, url, repo, img, infotitle } = project;
 
             return (
               <Row key={id}>
@@ -40,14 +40,14 @@ const Projects = () => {
                     delay={500}
                     distance="30px"
                   >
-                    <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                    <div className="project-wrapper__text" style={{marginTop : "5rem"}}>
+                      <h3 className="project-wrapper__text-title" style={{fontSize:"3.5rem"}}>{title || 'Project Title'}</h3>
                       <div>
-                        <p>
+                        <p style={{fontSize:"1.8rem"}}>
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p style={{fontSize:"1.8rem"}} className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
                         target="_blank"
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        {infotitle ? `${infotitle}` : "See Live"}
                       </a>
 
                       {repo && (
@@ -79,7 +79,7 @@ const Projects = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
+                    <div className="project-wrapper__image" style={{marginBottom:"5rem"}}>
                       <a
                         href={url || '#!'}
                         target="_blank"
