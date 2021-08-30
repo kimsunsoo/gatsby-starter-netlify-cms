@@ -42,9 +42,11 @@ const About = () => {
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  SRE 관점에서 안정적인 개발 경험을 지향합니다.
+                  CKA 자격증 보유
                   <br />
                   요즘 kubernetes 관심이 많음
+                  <br />
+                  I make useful stuff. 👍 + 💻 = 😁😆
                   <br />
                 </p>
                 {/* {resume && (

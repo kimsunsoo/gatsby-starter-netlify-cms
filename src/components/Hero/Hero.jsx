@@ -25,21 +25,16 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            <div style={{fontSize : "7rem"}}>Hi, my name is</div>
+            <div style={{ fontSize: '7rem' }}>Hi, my name is</div>
             <span className="text-color-main">{name && 'Your Name'}</span>
-						<div style={{marginLeft : "5rem"}}>
-						&#x0007B;
-						<div style={{marginLeft : "5rem"}}>
-							<div>
-								full_stack_developer : "김선수",
-							</div>
-							<div>
-								permission : "Admin"
-							</div>
-						</div>
-						&#x0007D;
-						</div>
-						
+            <div style={{ marginLeft: '5rem' }}>
+              &#x0007B;
+              <div style={{ marginLeft: '5rem' }}>
+                <div>SRE cloud engineer : "김선수",</div>
+                <div>permission : "Admin"</div>
+              </div>
+              &#x0007D;
+            </div>
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
