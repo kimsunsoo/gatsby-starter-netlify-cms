@@ -42,7 +42,10 @@ const About = () => {
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p className="about-wrapper__info-text">
-								A to Z 개발 경험을 지향합니다.<br />요즘 Graphql에 대해 관심이 많아져서<br /> 프런트와 백엔드까지 모두 다루고 싶은 개발자입니다. 
+                  SRE 관점에서 안정적인 개발 경험을 지향합니다.
+                  <br />
+                  요즘 kubernetes 관심이 많음
+                  <br />
                 </p>
                 {/* {resume && (
                   <span className="d-flex mt-3">
